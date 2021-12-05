@@ -1,22 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2021-12-05T18:52:19.631Z" agent="5.0 (Windows)" etag="F5Yg2WllQeanysEwCujM" version="15.8.9" type="github">
-  <diagram id="L2R3--aHK09KbspVmYzT" name="Page-1">
-    <mxGraphModel dx="1221" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="ttykeMyNEvWA2-3Id9MA-14" value="Mitarbeiter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="349" y="150" width="210" height="134" as="geometry" />
-        </mxCell>
-        <mxCell id="ttykeMyNEvWA2-3Id9MA-15" value="- firstName: String&#xa;- familyName: String&#xa;- function: String&#xa;- yearJoined: String&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ttykeMyNEvWA2-3Id9MA-14">
-          <mxGeometry y="26" width="210" height="74" as="geometry" />
-        </mxCell>
-        <mxCell id="ttykeMyNEvWA2-3Id9MA-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ttykeMyNEvWA2-3Id9MA-14">
-          <mxGeometry y="100" width="210" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="ttykeMyNEvWA2-3Id9MA-17" value="+ getInfo(): String&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ttykeMyNEvWA2-3Id9MA-14">
-          <mxGeometry y="108" width="210" height="26" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="65bd71144e">
+    <diagram id="L2R3--aHK09KbspVmYzT" name="Page-1">
+        <mxGraphModel dx="764" dy="388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="ttykeMyNEvWA2-3Id9MA-14" value="Mitarbeiter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="349" y="150" width="210" height="134" as="geometry"/>
+                </mxCell>
+                <mxCell id="ttykeMyNEvWA2-3Id9MA-15" value="- firstName: String&#10;- familyName: String&#10;- function: String&#10;- yearJoined: int&#10;&#10;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ttykeMyNEvWA2-3Id9MA-14" vertex="1">
+                    <mxGeometry y="26" width="210" height="74" as="geometry"/>
+                </mxCell>
+                <mxCell id="ttykeMyNEvWA2-3Id9MA-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="ttykeMyNEvWA2-3Id9MA-14" vertex="1">
+                    <mxGeometry y="100" width="210" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="ttykeMyNEvWA2-3Id9MA-17" value="+ getInfo(): String&#10;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ttykeMyNEvWA2-3Id9MA-14" vertex="1">
+                    <mxGeometry y="108" width="210" height="26" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>

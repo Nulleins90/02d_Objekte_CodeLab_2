@@ -5,13 +5,13 @@ public class Mitarbeiter {
   private String firstName;
   private String familyName;
   private String function;
-  private String yearJoined;
+  private int yearJoined;
 
   public Mitarbeiter(
     String firstName,
     String familyName,
     String function,
-    String yearJoined
+    int yearJoined
   ) {
     this.firstName = firstName;
     this.familyName = familyName;
@@ -28,7 +28,7 @@ public class Mitarbeiter {
       case "Funktion":
         return function;
       case "Eintrittsjahr":
-        return yearJoined;
+        return String.valueOf(yearJoined);
       default:
         return "Falscher Parameter";
     }
